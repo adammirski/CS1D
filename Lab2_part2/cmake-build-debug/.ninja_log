@@ -1,0 +1,5 @@
+# ninja log v6
+1	602	1738011995740997554	CMakeFiles/Lab2_part2.dir/main.cpp.o	387e9a7aef2f2b18
+2	605	1738011995742442892	CMakeFiles/Lab2_part2.dir/partTimeEmployee.cpp.o	55dbacc0d4e5fd71
+2	607	1738011995742285475	CMakeFiles/Lab2_part2.dir/inherit2.cpp.o	71f2c525304deb40
+607	767	1738011996346536784	Lab2_part2	cb613fcbea2666c
