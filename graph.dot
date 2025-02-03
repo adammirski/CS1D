@@ -1,0 +1,6 @@
+digraph G {
+    main -> hello1Function;
+    main -> hello2Function;
+    hello1Function -> HelloWorld1;
+    hello2Function -> HelloWorld2;
+}

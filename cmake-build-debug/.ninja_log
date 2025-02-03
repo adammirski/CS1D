@@ -1,0 +1,6 @@
+# ninja log v6
+1	615	1738011443734030102	CMakeFiles/Lab2.dir/main.cpp.o	6da80fce1ff3fb07
+2	619	1738011443735425231	CMakeFiles/Lab2.dir/hello1Function.cpp.o	9bdf1eba90315394
+2	619	1738011443735581607	CMakeFiles/Lab2.dir/hello2Function.cpp.o	837d4e9fc011468b
+2	620	1738011443735712440	CMakeFiles/Lab2.dir/inherit2.cpp.o	70119257cd2752ee
+620	793	1738011444353173415	Lab2	fe087b48705358c

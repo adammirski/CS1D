@@ -1,0 +1,114 @@
+\doxysection{part\+Time\+Employee Class Reference}
+\hypertarget{classpart_time_employee}{}\label{classpart_time_employee}\index{partTimeEmployee@{partTimeEmployee}}
+
+
+Represents a part-\/time employee, derived from \doxylink{classperson_type}{person\+Type}.  
+
+
+
+
+{\ttfamily \#include $<$part\+Time\+Employee.\+h$>$}
+
+Inheritance diagram for part\+Time\+Employee\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classpart_time_employee}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classpart_time_employee_a2bef6c6e221f70921aca3586b7ee5517}\label{classpart_time_employee_a2bef6c6e221f70921aca3586b7ee5517} 
+void {\bfseries print} ()
+\begin{DoxyCompactList}\small\item\em Outputs the name and wages of the employee. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classpart_time_employee_a920d86397b0962a8fe0eb75990b4d597}{calculate\+Pay}} ()
+\begin{DoxyCompactList}\small\item\em Calculates and returns the wages of the employee. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classpart_time_employee_a1b46f9a17525cf24018e031f5e254c35}{set\+Name\+Rate\+Hours}} (string first, string last, double rate, double hours)
+\begin{DoxyCompactList}\small\item\em Sets the employee\textquotesingle{}s details\+: name, pay rate, and hours worked. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classpart_time_employee_af3e291ddea6648881c9238c31d8a62a2}{part\+Time\+Employee}} (string first, string last, double rate, double hours)
+\begin{DoxyCompactList}\small\item\em Constructor with parameters. \end{DoxyCompactList}\item 
+\Hypertarget{classpart_time_employee_a7df82a7fba295842ae551ad8a7f550ed}\label{classpart_time_employee_a7df82a7fba295842ae551ad8a7f550ed} 
+{\bfseries part\+Time\+Employee} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classperson_type}{person\+Type}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries print} () const
+\begin{DoxyCompactList}\small\item\em Outputs the full name of the person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classperson_type_a79b92ea9f3d62b7fa479076ee403377c}{set\+Name}} (string first, string last)
+\begin{DoxyCompactList}\small\item\em Sets the first and last name of the person. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classperson_type_a5fedd6da5a17fbd0129df59d3047da8f}{get\+Name}} (string \&first, string \&last)
+\begin{DoxyCompactList}\small\item\em Gets the first and last name of the person. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classperson_type_ae8a80d1828d3b9f8c2f5a81ed8d7b9ff}{person\+Type}} (string first, string last)
+\begin{DoxyCompactList}\small\item\em Constructor with parameters. \end{DoxyCompactList}\item 
+{\bfseries person\+Type} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a part-\/time employee, derived from \doxylink{classperson_type}{person\+Type}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classpart_time_employee_af3e291ddea6648881c9238c31d8a62a2}\index{partTimeEmployee@{partTimeEmployee}!partTimeEmployee@{partTimeEmployee}}
+\index{partTimeEmployee@{partTimeEmployee}!partTimeEmployee@{partTimeEmployee}}
+\doxysubsubsection{\texorpdfstring{partTimeEmployee()}{partTimeEmployee()}}
+{\footnotesize\ttfamily \label{classpart_time_employee_af3e291ddea6648881c9238c31d8a62a2} 
+part\+Time\+Employee\+::part\+Time\+Employee (\begin{DoxyParamCaption}\item[{string}]{first}{, }\item[{string}]{last}{, }\item[{double}]{rate}{, }\item[{double}]{hours}{}\end{DoxyParamCaption})}
+
+
+
+Constructor with parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & The first name. \\
+\hline
+{\em last} & The last name. \\
+\hline
+{\em rate} & The pay rate. \\
+\hline
+{\em hours} & The number of hours worked. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classpart_time_employee_a920d86397b0962a8fe0eb75990b4d597}\index{partTimeEmployee@{partTimeEmployee}!calculatePay@{calculatePay}}
+\index{calculatePay@{calculatePay}!partTimeEmployee@{partTimeEmployee}}
+\doxysubsubsection{\texorpdfstring{calculatePay()}{calculatePay()}}
+{\footnotesize\ttfamily \label{classpart_time_employee_a920d86397b0962a8fe0eb75990b4d597} 
+double part\+Time\+Employee\+::calculate\+Pay (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Calculates and returns the wages of the employee. 
+
+\begin{DoxyReturn}{Returns}
+The calculated wages. 
+\end{DoxyReturn}
+\Hypertarget{classpart_time_employee_a1b46f9a17525cf24018e031f5e254c35}\index{partTimeEmployee@{partTimeEmployee}!setNameRateHours@{setNameRateHours}}
+\index{setNameRateHours@{setNameRateHours}!partTimeEmployee@{partTimeEmployee}}
+\doxysubsubsection{\texorpdfstring{setNameRateHours()}{setNameRateHours()}}
+{\footnotesize\ttfamily \label{classpart_time_employee_a1b46f9a17525cf24018e031f5e254c35} 
+void part\+Time\+Employee\+::set\+Name\+Rate\+Hours (\begin{DoxyParamCaption}\item[{string}]{first}{, }\item[{string}]{last}{, }\item[{double}]{rate}{, }\item[{double}]{hours}{}\end{DoxyParamCaption})}
+
+
+
+Sets the employee\textquotesingle{}s details\+: name, pay rate, and hours worked. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & The first name. \\
+\hline
+{\em last} & The last name. \\
+\hline
+{\em rate} & The pay rate. \\
+\hline
+{\em hours} & The number of hours worked. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+part\+Time\+Employee.\+h\end{DoxyCompactItemize}
